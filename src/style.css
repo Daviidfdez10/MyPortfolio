@@ -13,7 +13,9 @@ html {
 
   --imp-text-color: #c770f0;
 }
-
+.pdfViewer .page .canvasWrapper {
+  height: auto !important;
+}
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -607,7 +609,6 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
 }
 
 .resume {
